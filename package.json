@@ -1,7 +1,7 @@
 {
     "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
     "name": "isotropy-backend-nedb",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "NeDB backend for Isotropy.",
     "scripts": {
         "test": "mocha dist/test/test.js"
