@@ -1,30 +1,30 @@
 {
-    "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
-    "name": "isotropy-backend-nedb",
-    "version": "1.0.1",
-    "description": "NeDB backend for Isotropy.",
-    "scripts": {
-        "test": "mocha dist/test/test.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jeswin/isotropy-backend-nedb.git"
-    },
-    "main": "dist/isotropy-backend-nedb",
-    "license": "MIT",
-    "dependencies": {
-        "nedb-isotropy": "*",
-        "nodefunc-promisify": "*"
-    },
-    "devDependencies": {
-        "babel-polyfill": "*",
-        "babel-preset-es2015": "*",
-        "babel-preset-react": "*",
-        "babel-preset-stage-2": "*",
-        "babel-plugin-transform-class-properties": "*",
-        "mocha": "*",
-        "should": "*"
-    },
-    "keywords": ["mongodb", "nedb", "isotropy", "isomorphic"],
-    "license" : "MIT"
+  "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
+  "name": "isotropy-backend-nedb",
+  "version": "1.0.2",
+  "description": "NeDB backend for Isotropy.",
+  "scripts": {
+    "test": "mocha dist/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeswin/isotropy-backend-nedb.git"
+  },
+  "main": "dist/isotropy-backend-nedb",
+  "license": "MIT",
+  "dependencies": {
+    "nedb-isotropy": "*",
+    "nodefunc-promisify": "*"
+  },
+  "devDependencies": {
+    "babel-polyfill": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-2": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": ["mongodb", "nedb", "isotropy", "isomorphic"],
+  "license" : "MIT"
 }
