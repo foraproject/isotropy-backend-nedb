@@ -21,10 +21,10 @@ import NeDB from "nedb-isotropy";
 import Cursor from "./cursor";
 
 const _count: AsyncFunc1<Object, number> = promisify(NeDB.Datastore.prototype.count);
-const _insert: AsyncFunc1<Array<Object>, Array<number>> = promisify(NeDB.Datastore.prototype.insert);
+const _insert: AsyncFunc1<Array<Object>, Array<{_id: Object}>> = promisify(NeDB.Datastore.prototype.insert);
 const _find = NeDB.Datastore.prototype.find;
-const _remove: AsyncFunc1<Object, Object> = promisify(NeDB.Datastore.prototype.remove);
-const _update: AsyncFunc2<Object, Object, number> = promisify(NeDB.Datastore.prototype.update);
+const _remove: AsyncFunc2<Object, { multi: boolean }, number> = promisify(NeDB.Datastore.prototype.remove);
+const _update: AsyncFunc3<Object, Object, { multi: boolean }, number> = promisify(NeDB.Datastore.prototype.update);
 
 class Collection {
   underlying: NeDB.Datastore;
