@@ -1,14 +1,14 @@
 {
   "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
   "name": "isotropy-backend-nedb",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "NeDB backend for Isotropy.",
   "scripts": {
     "test": "mocha dist/test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodejam/isotropy-backend-nedb.git"
+    "url": "https://github.com/jeswin/isotropy-backend-nedb.git"
   },
   "main": "dist/isotropy-backend-nedb",
   "license": "MIT",
